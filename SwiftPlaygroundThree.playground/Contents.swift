@@ -32,6 +32,20 @@ for name in fruitBasket{
 print(fruitBasket[1])
 print(fruitBasket[0])
 
+//Part 8, Start of Assignment #4
+
+var myFavoriteNumber: [String]
+
+myFavoriteNumber = ["1", "9", "23", "24", "99"]
+
+print(myFavoriteNumber)
+
+for name in myFavoriteNumber{
+    print("I like the number " + name)
+
+}
+
+
 
 
 
