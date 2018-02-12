@@ -34,18 +34,24 @@ print(fruitBasket[0])
 
 //Part 8, Start of Assignment #4
 
-var myFavoriteNumber: [String]
+var myFavoriteNumber: [Int]
 
-myFavoriteNumber = ["1", "9", "23", "24", "99"]
+myFavoriteNumber = [1, 9, 23, 24, 99]
 
 print(myFavoriteNumber)
 
 for name in myFavoriteNumber{
-    print("I like the number " + name)
+    print("I like the number " ,name)
 
 }
 
+//Part 9
 
+let removed = myFavoriteNumber.remove(at:2)
+print(myFavoriteNumber)
+
+myFavoriteNumber.append(107)
+print(myFavoriteNumber)
 
 
 
